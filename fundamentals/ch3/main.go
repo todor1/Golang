@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // func main() {
 // 	fmt.Println("Hello, World!")
 // 	println("Hello, Gophers!")
@@ -71,21 +73,21 @@ package main
 // 	fmt.Println(d)
 // }
 
-// func main() {
-// 	// pointers
-// 	s := "Hello, World!"
-// 	fmt.Println(s)
-// 	p := &s
-// 	fmt.Println(p)
-// 	fmt.Println(*p)
+func main() {
+	// pointers
+	s := "Hello, World!"
+	fmt.Println(s)
+	p := &s
+	fmt.Println(p)
+	fmt.Println(*p)
 
-// 	*p = "Hello, Gophers!"
-// 	fmt.Println(s)
+	*p = "Hello, Gophers!"
+	fmt.Println(s)
 
-// 	// p = "New value" // error
-// 	// fmt.Println(p)
+	// p = "New value" // error
+	// fmt.Println(p)
 
-// 	p = new(string) // memory address change
-// 	fmt.Println(p, *p)
+	p = new(string) // memory address change
+	fmt.Println(p, *p)
 
-// }
+}
