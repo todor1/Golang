@@ -16,6 +16,7 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-golang-web-dev/downloads/*.zip
+golang-web-dev/downloads/golang-web-dev-master.zip
+
 # Go workspace file
 go.work
